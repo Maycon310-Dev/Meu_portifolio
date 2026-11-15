@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Maycon Vinicios, desenvolvedor de sistemas. Conheça meus projetos e soluções digitais.">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Maycon Vinicios | Desenvolvedor de Sistemas">
+    <meta property="og:description" content="Conheça os projetos, conhecimentos e soluções digitais desenvolvidos por Maycon Vinicios.">
+
+    <!-- FONTES & ÍCONES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Maycon Vinicios | Desenvolvedor de Sistemas</title>
+</head>
+
+<body>
+    <!-- FUNDO DECORATIVO -->
+    <div class="bg-glows" aria-hidden="true">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#quem-eu-sou" class="logo">Maycon Vinicios</a>
+
+            <button
+                type="button"
+                id="mobile-menu-btn"
+                class="mobile-menu-btn"
+                aria-label="Abrir menu de navegação"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+            >
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <nav id="nav-menu" class="nav" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="#quem-eu-sou" class="nav-link">Quem Eu Sou</a></li>
+                    <li><a href="#linguagens" class="nav-link">Tecnologias</a></li>
+                    <li><a href="#ferramentas" class="nav-link">Ferramentas</a></li>
+                    <li><a href="#experiencias" class="nav-link">Experiências</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- HERO SECTION -->
+        <section id="quem-eu-sou" class="hero section" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div class="hero-avatar-wrapper">
+                    <div class="avatar-glow-ring">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBe9JtoeYFl6jJXB7lX9R6J3YQuYZrVj7GB3ojH68sA&s=10"
+                            alt="Foto de perfil de Maycon Vinicios"
+                            class="hero-avatar"
+                        >
+                    </div>
+                </div>
+
+                <div class="hero-content">
+                    <span class="hero-greeting">Olá, eu sou</span>
+                    <h1 id="hero-title" class="hero-name">Maycon Vinicios</h1>
+                    <p class="hero-description">
+                        Analista Técnico e estudante de Desenvolvimento de Sistemas no SENAI CTTI.
+                        Focado na criação de aplicações desktop, sistemas web e soluções práticas com C#, Python e
+                        bancos de dados relacionais.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contato" class="btn btn-primary">Contate-me</a>
+                        <a
+                            href="https://github.com/Maycon310-Dev"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-secondary"
+                        >
+                            Acessar GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECNOLOGIAS E CONHECIMENTOS -->
+        <section id="linguagens" class="section" aria-labelledby="technologies-title">
+            <div class="container">
+                <h2 id="technologies-title" class="section-title">Tecnologias e Conhecimentos</h2>
+
+                <div class="cards-grid">
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-code card-icon" aria-hidden="true"></i>
+                            <h3>C#</h3>
+                        </div>
+                        <p>Desenvolvimento de aplicações desktop com .NET e Windows Forms.</p>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-python card-icon" aria-hidden="true"></i>
+                            <h3>Python</h3>
+                        </div>
+                        <p>Desenvolvimento de aplicações com Flask, automações e lógica de back-end.</p>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-html5 card-icon" aria-hidden="true"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                        <p>Estruturação semântica de páginas web com foco em organização e acessibilidade.</p>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-css3-alt card-icon" aria-hidden="true"></i>
+                            <h3>CSS3</h3>
+                        </div>
+                        <p>Estilização de páginas web, interfaces responsivas e efeitos visuais.</p>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-brands fa-js card-icon" aria-hidden="true"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <p>Lógica de programação, manipulação do DOM e interatividade no navegador.</p>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-header">
+                            <i class="fa-solid fa-database card-icon" aria-hidden="true"></i>
+                            <h3>SQL</h3>
+                        </div>
+                        <p>Modelagem, consultas e gerenciamento de bancos de dados relacionais com MySQL e SQLite.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- PERFIL NO GITHUB -->
+        <section id="github" class="section" aria-labelledby="github-title">
+            <div class="container">
+                <div class="glass-card github-banner">
+                    <h2 id="github-title">Meu Perfil no GitHub</h2>
+                    <p>Confira meus repositórios, projetos acadêmicos e sistemas desenvolvidos na prática.</p>
+
+                    <div
+                        id="github-stats"
+                        class="github-stats"
+                        aria-live="polite"
+                        aria-atomic="true"
+                    ></div>
+
+                    <a
+                        href="https://github.com/Maycon310-Dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary"
+                    >
+                        Acessar Meu GitHub
+                        <i class="fa-brands fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FERRAMENTAS & TECNOLOGIAS -->
+        <section id="ferramentas" class="section" aria-labelledby="tools-title">
+            <div class="container">
+                <h2 id="tools-title" class="section-title">Ferramentas &amp; Tecnologias</h2>
+
+                <div class="pills-container">
+                    <span class="tech-pill"><i class="fa-solid fa-laptop-code" aria-hidden="true"></i> Visual Studio</span>
+                    <span class="tech-pill"><i class="fa-solid fa-code" aria-hidden="true"></i> Visual Studio Code</span>
+                    <span class="tech-pill"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git &amp; GitHub</span>
+                    <span class="tech-pill"><i class="fa-solid fa-server" aria-hidden="true"></i> MySQL Workbench</span>
+                    <span class="tech-pill"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</span>
+                    <span class="tech-pill"><i class="fa-solid fa-window-maximize" aria-hidden="true"></i> .NET / Windows Forms</span>
+                    <span class="tech-pill"><i class="fa-solid fa-flask" aria-hidden="true"></i> Flask</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIÊNCIAS PROFISSIONAIS -->
+        <section id="experiencias" class="section" aria-labelledby="experience-title">
+            <div class="container">
+                <h2 id="experience-title" class="section-title">Experiências Profissionais</h2>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-marker" aria-hidden="true"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Analista Técnico (Terceirizado CEMIG)</h3>
+                            <p class="timeline-period">
+                                Rio Minas •
+                                <time datetime="2026-07">Julho de 2026</time> – Atualmente
+                            </p>
+                            <p>
+                                Atuação no suporte técnico operacional e atendimento especializado para a operação
+                                CEMIG, com foco na resolução ágil de demandas e estabilidade dos processos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-marker" aria-hidden="true"></div>
+                        <div class="timeline-content glass-card">
+                            <h3>Desenvolvedor em Formação (Projetos Acadêmicos e Próprios)</h3>
+                            <p class="timeline-period">
+                                SENAI CTTI •
+                                <time datetime="2026-02">Fevereiro de 2026</time> –
+                                Previsão: <time datetime="2027-07">Julho de 2027</time>
+                            </p>
+                            <p>
+                                Desenvolvimento de sistemas completos em equipe e individuais, incluindo software de
+                                gestão comercial (PDV/ERP em C# e MySQL) e aplicações web de gestão e agendamento em
+                                Python e Flask.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Entre em Contato</h2>
+
+                <div class="contact-wrapper glass-card">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="sender">Seu E-mail</label>
+                            <input
+                                type="email"
+                                id="sender"
+                                name="sender"
+                                placeholder="Digite seu e-mail..."
+                                autocomplete="email"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Sua Mensagem</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Olá Maycon, gostaria de conversar sobre um projeto ou oportunidade..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-full">
+                            Enviar Mensagem
+                        </button>
+
+                        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer"><center>
+        <div class="container">
+            <p>&copy; 2026 - Maycon Vinicios &bull; Portfólio Pessoal</p>
+        </div>
+    </footer></center>
+
+    <script src="script.js"></script>
+</body>
+</html>
